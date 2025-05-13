@@ -3,310 +3,282 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ibrahim Musah | Data Scientist & AI Engineer</title> <meta name="description" content="Portfolio of Ibrahim Musah, a Data Scientist and AI Engineer specializing in Python, SQL, Cloud technologies, and building intelligent systems."> <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Ibrahim Musah | Data Science Professional</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
     <link href="assets/css/style.css" rel="stylesheet">
-    <link rel="icon" href="assets/images/favicon.png" type="image/png">
 </head>
-<body class="dark-theme">
-
-    <nav class="navbar navbar-expand-lg navbar-dark sticky-top bg-dark2"> <div class="container">
-            <a class="navbar-brand" href="#">Ibrahim Musah</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#stats">GitHub</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <header class="gradient-bg" id="home"> {/* Add ID for nav */}
-        <div class="container py-5">
+<body>
+    <!-- Professional Header with Headshot -->
+    <header class="bg-light py-5">
+        <div class="container">
             <div class="row align-items-center">
                 <div class="col-md-8">
-                    <h1 class="display-4 fw-bold">Ibrahim Musah</h1>
-                    <p class="lead">Data Scientist & AI Engineer</p>
-                    <p class="subtitle">Building intelligent systems with Python, SQL, and Cloud technologies.</p> {/* Slightly rephrased */}
-                    <div class="social-links mt-4">
-                        <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light me-2">
-                            <i class="fab fa-github" aria-hidden="true"></i> GitHub
+                    <h1 class="display-5 fw-bold mb-3">Ibrahim Musah</h1>
+                    <h2 class="text-primary mb-4">Senior Data Scientist</h2>
+                    <p class="lead mb-4">Driving business value through machine learning and data engineering solutions with 5+ years of experience.</p>
+                    <div class="d-flex gap-3">
+                        <a href="resume.html" class="btn btn-primary px-4">
+                            <i class="fas fa-file-alt me-2"></i>View Resume
                         </a>
-                        <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light">
-                            <i class="fab fa-linkedin" aria-hidden="true"></i> LinkedIn
-                        </a>
-                        <a href="assets/docs/resume.pdf" download class="btn btn-primary ms-2"> {/* Added Resume Download Here too */}
-                            <i class="fas fa-file-alt" aria-hidden="true"></i> View Resume
+                        <a href="#contact" class="btn btn-outline-primary px-4">
+                            <i class="fas fa-envelope me-2"></i>Contact Me
                         </a>
                     </div>
                 </div>
                 <div class="col-md-4 text-center">
-                    <div class="profile-pic">
-                        <img src="assets/images/profile.jpg" alt="Headshot of Ibrahim Musah" class="img-fluid rounded-circle">
-                    </div>
+                    <img src="assets/images/professional-headshot.jpg" alt="Professional Headshot" class="img-fluid rounded-circle profile-img">
                 </div>
             </div>
         </div>
     </header>
 
-    <main>
-        <section id="about" class="py-5">
-            <div class="container">
-                <h2 class="section-title text-center mb-4"><i class="fas fa-user-tie me-2" aria-hidden="true"></i>About Me</h2>
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2 text-center">
-                        <p class="lead">
-                            I am a results-oriented Data Scientist and AI Engineer passionate about transforming data into actionable insights and intelligent solutions. With a strong foundation in Python, SQL, machine learning, and cloud platforms like Azure and AWS, I specialize in developing robust data pipelines, predictive models, and AI-driven applications. I thrive on tackling complex challenges and am eager to contribute my skills to innovative projects that make a tangible impact.
-                        </p>
-                        <p>My journey in data began with [mention a brief starting point or motivation] and has led me to work on diverse projects, including [mention a type of project, e.g., real-time analytics systems, LLM integrations]. I am particularly interested in [mention specific areas like MLOps, NLP, Computer Vision, etc.].</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="skills" class="py-5 bg-light text-dark"> {/* Example: Light background for contrast if dark theme body */}
-            <div class="container">
-                <h2 class="section-title text-center mb-5"><i class="fas fa-code me-2" aria-hidden="true"></i>Technical Skills</h2>
-                <div class="row gy-4"> {/* gy-4 for gutter spacing between cards on y-axis */}
-                    <div class="col-md-6 col-lg-4">
-                        <div class="skill-card h-100"> {/* h-100 for equal height cards if desired */}
-                            <h3><i class="fab fa-python text-primary" aria-hidden="true"></i> Python</h3>
-                            <ul>
-                                <li>Data Analysis: Pandas, NumPy, SciPy</li>
-                                <li>Machine Learning: Scikit-learn, TensorFlow, PyTorch, Keras</li>
-                                <li>Web Frameworks: FastAPI, Django, Flask</li>
-                                <li>Visualization: Matplotlib, Seaborn, Plotly</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="skill-card h-100">
-                            <h3><i class="fas fa-database text-info" aria-hidden="true"></i> Data Engineering & Databases</h3>
-                            <ul>
-                                <li>SQL: PostgreSQL, MySQL, SQL Server</li>
-                                <li>NoSQL: MongoDB, Cassandra</li>
-                                <li>ETL & Orchestration: Apache Airflow, Kafka, Spark</li>
-                                <li>Data Warehousing: Snowflake, BigQuery</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="skill-card h-100">
-                            <h3><i class="fas fa-cloud text-success" aria-hidden="true"></i> Cloud & MLOps</h3>
-                            <ul>
-                                <li>Cloud Platforms: Azure, AWS, GCP</li>
-                                <li>Containerization: Docker, Kubernetes</li>
-                                <li>CI/CD: Jenkins, GitHub Actions</li>
-                                <li>MLOps Tools: MLflow, Kubeflow</li>
-                            </ul>
-                        </div>
-                    </div>
-                     <div class="col-md-6 col-lg-4">
-                        <div class="skill-card h-100">
-                            <h3><i class="fas fa-brain text-warning" aria-hidden="true"></i> AI/ML Specializations</h3>
-                            <ul>
-                                <li>Large Language Models (LLMs): GPT-4, LangChain, RAG</li>
-                                <li>Computer Vision: OpenCV, YOLO</li>
-                                <li>Natural Language Processing (NLP): NLTK, spaCy</li>
-                                <li>Deep Learning Frameworks</li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="skill-card h-100">
-                            <h3><i class="fas fa-tools text-secondary" aria-hidden="true"></i> Developer Tools</h3>
-                            <ul>
-                                <li>Version Control: Git, GitHub</li>
-                                <li>IDEs: VS Code, PyCharm, Jupyter Notebooks</li>
-                                <li>Project Management: Jira, Confluence</li>
-                                <li>APIs & Microservices</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="projects" class="py-5 bg-dark2"> {/* Keep your themed background */}
-            <div class="container">
-                <h2 class="section-title text-center mb-5"><i class="fas fa-rocket me-2" aria-hidden="true"></i>Featured Projects</h2>
-                <div class="row gy-4">
-                    <div class="col-lg-4 col-md-6">
-                        <div class="project-card h-100 d-flex flex-column"> {/* h-100 and flex for equal height and footer button alignment */}
-                            <div class="project-img">
-                                <img src="assets/images/stock-prediction.jpg" alt="Stock Market Prediction App Interface" class="img-fluid">
-                                <div class="overlay">
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project1Modal">
-                                        View Details
-                                    </button>
-                                    </div>
-                            </div>
-                            <div class="project-body flex-grow-1"> {/* flex-grow-1 to push footer down */}
-                                <h3>Stock Market Prediction</h3>
-                                <p class="tech-stack"><strong>Tech:</strong> Python, Kafka, Airflow, Scikit-learn, TensorFlow</p>
-                                <p>Developed a real-time ML pipeline processing 10K+ daily trades, achieving 87% prediction accuracy for key stock indicators.</p>
-                            </div>
-                            <div class="project-footer mt-auto p-3"> {/* mt-auto to push to bottom */}
-                                <a href="https://github.com/yourusername/stock-prediction" target="_blank" rel="noopener noreferrer" class="project-link">
-                                    <i class="fab fa-github" aria-hidden="true"></i> Code
-                                </a>
-                                </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="project-card h-100 d-flex flex-column">
-                             <div class="project-img">
-                                <img src="assets/images/llm-agent.jpg" alt="LLM Customer Support Agent Interface" class="img-fluid">
-                                <div class="overlay">
-                                     <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project2Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="project-body flex-grow-1">
-                                <h3>LLM Customer Support Agent</h3>
-                                <p class="tech-stack"><strong>Tech:</strong> Python, GPT-4, LangChain, FastAPI, RAG</p>
-                                <p>Engineered an AI-powered chatbot that automated 40% of customer support inquiries by implementing a Retrieval Augmented Generation (RAG) architecture.</p>
-                            </div>
-                             <div class="project-footer mt-auto p-3">
-                                <a href="https://github.com/yourusername/llm-agent" target="_blank" rel="noopener noreferrer" class="project-link">
-                                    <i class="fab fa-github" aria-hidden="true"></i> Code
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6">
-                        <div class="project-card h-100 d-flex flex-column">
-                            <div class="project-img">
-                                <img src="assets/images/ecommerce-dash.jpg" alt="E-Commerce Analytics Dashboard Screenshot" class="img-fluid">
-                                <div class="overlay">
-                                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#project3Modal">
-                                        View Details
-                                    </button>
-                                </div>
-                            </div>
-                            <div class="project-body flex-grow-1">
-                                <h3>E-Commerce Analytics Dashboard</h3>
-                                <p class="tech-stack"><strong>Tech:</strong> Power BI, SQL, DAX, Azure Synapse</p>
-                                <p>Designed and deployed an interactive dashboard that provided actionable insights into customer behavior, contributing to a 15% sales growth.</p>
-                            </div>
-                            <div class="project-footer mt-auto p-3">
-                                <a href="https://github.com/yourusername/ecommerce-dash" target="_blank" rel="noopener noreferrer" class="project-link">
-                                    <i class="fab fa-github" aria-hidden="true"></i> Code (or Link to Dashboard if public)
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="text-center mt-5">
-                    <a href="projects.html" class="btn btn-outline-light btn-lg">View All Projects</a>
-                </div>
-            </div>
-        </section>
-
-        <section id="stats" class="py-5">
-            <div class="container">
-                <h2 class="section-title text-center mb-5"><i class="fab fa-github me-2" aria-hidden="true"></i>GitHub Activity</h2>
-                <div class="row gy-4 justify-content-center">
-                    <div class="col-md-6 text-center">
-                        <img src="https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&hide_border=true&count_private=true"
-                             alt="Ibrahim Musah's GitHub Stats" class="img-fluid">
-                    </div>
-                    <div class="col-md-6 text-center">
-                        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical&hide_border=true&langs_count=8"
-                             alt="Ibrahim Musah's Top Languages on GitHub" class="img-fluid">
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <section id="contact" class="py-5 bg-light text-dark">
-            <div class="container">
-                <h2 class="section-title text-center mb-4"><i class="fas fa-envelope me-2" aria-hidden="true"></i>Get In Touch</h2>
-                <div class="row">
-                    <div class="col-md-8 offset-md-2 text-center">
-                        <p class="lead">I'm always excited to discuss new projects, data challenges, or opportunities to collaborate. Feel free to reach out!</p>
-                        <a href="mailto:bigibrach@gmail.com" class="btn btn-primary btn-lg mt-3">
-                            <i class="fas fa-paper-plane me-2"></i>Send Email
-                        </a>
-                        <div class="mt-4">
-                            <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="text-dark fs-4 me-3">
-                                <i class="fab fa-linkedin"></i>
-                            </a>
-                             <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" class="text-dark fs-4">
-                                <i class="fab fa-github"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-    </main>
-
-    <footer class="py-4 text-center"> {/* Removed bg-dark if main body is dark, or set a specific footer color */}
+    <!-- Core Value Proposition -->
+    <section class="py-5 bg-white">
         <div class="container">
-            <p class="mb-1">&copy; <span id="currentYear">2024</span> Ibrahim Musah. All Rights Reserved.</p>
-            <p class="mb-1">Built with <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer" class="text-muted">Bootstrap 5</a> & <i class="fas fa-heart text-danger"></i></p>
-            <p class="contact-links">
-                <a href="mailto:bigibrach@gmail.com" class="text-muted me-3"><i class="fas fa-envelope me-1" aria-hidden="true"></i>Email</a>
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" class="text-muted me-3"><i class="fab fa-linkedin me-1" aria-hidden="true"></i>LinkedIn</a>
-                <a href="assets/docs/resume.pdf" download class="text-muted"><i class="fas fa-file-pdf me-1" aria-hidden="true"></i>Download Resume</a>
-            </p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="value-card text-center p-4 h-100">
+                        <div class="value-icon bg-primary-light mb-3">
+                            <i class="fas fa-chart-line text-primary"></i>
+                        </div>
+                        <h3>Business Impact</h3>
+                        <p>Delivered 25% reduction in customer churn and 15% revenue growth through data-driven strategies.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="value-card text-center p-4 h-100">
+                        <div class="value-icon bg-primary-light mb-3">
+                            <i class="fas fa-cogs text-primary"></i>
+                        </div>
+                        <h3>Technical Excellence</h3>
+                        <p>Python | SQL | Machine Learning | Azure | Power BI | Certified Data Professional</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="value-card text-center p-4 h-100">
+                        <div class="value-icon bg-primary-light mb-3">
+                            <i class="fas fa-users text-primary"></i>
+                        </div>
+                        <h3>Collaborative Leadership</h3>
+                        <p>Led cross-functional teams to deploy AI solutions with 90% stakeholder alignment.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Professional Experience Highlights -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Professional Experience</h2>
+            <div class="timeline">
+                <!-- Experience 1 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2024-Present</div>
+                    <div class="timeline-content">
+                        <h3>AI Engineer Intern</h3>
+                        <p class="text-muted mb-2">Gen AI Agency, London</p>
+                        <ul>
+                            <li>Developed LLM-based agents improving team productivity by 25%</li>
+                            <li>Automated data extraction processes, reducing manual work by 50%</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- Experience 2 -->
+                <div class="timeline-item">
+                    <div class="timeline-date">2022-2023</div>
+                    <div class="timeline-content">
+                        <h3>Full-stack Developer</h3>
+                        <p class="text-muted mb-2">Sorphise Limited, Accra</p>
+                        <ul>
+                            <li>Optimized database queries, accelerating data retrieval by 40%</li>
+                            <li>Implemented payment APIs with 99% transaction success rate</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-4">
+                <a href="resume.html" class="btn btn-outline-primary">View Full Work History</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Projects as Case Studies -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Key Achievements</h2>
+            <div class="row g-4">
+                <div class="col-lg-6">
+                    <div class="case-study-card">
+                        <div class="case-study-header">
+                            <h3>Telecom Churn Reduction</h3>
+                            <span class="badge bg-primary">Data Science</span>
+                        </div>
+                        <div class="case-study-body">
+                            <p><strong>Challenge:</strong> High customer attrition (30% monthly)</p>
+                            <p><strong>Solution:</strong> Developed XGBoost model with 90% accuracy</p>
+                            <p><strong>Impact:</strong> 25% reduction in churn, saving $2M annually</p>
+                            <a href="projects.html#churn" class="btn btn-sm btn-outline-primary mt-3">Read Case Study →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="case-study-card">
+                        <div class="case-study-header">
+                            <h3>E-Commerce Revenue Growth</h3>
+                            <span class="badge bg-success">Business Intelligence</span>
+                        </div>
+                        <div class="case-study-body">
+                            <p><strong>Challenge:</strong> Low marketing ROI (5% conversion)</p>
+                            <p><strong>Solution:</strong> Power BI dashboard with customer segmentation</p>
+                            <p><strong>Impact:</strong> 15% increase in targeted sales revenue</p>
+                            <a href="projects.html#ecommerce" class="btn btn-sm btn-outline-primary mt-3">Read Case Study →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Matrix -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Technical Proficiencies</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="skill-progress mb-4">
+                        <div class="d-flex justify-content-between">
+                            <span>Python (Pandas, Scikit-learn)</span>
+                            <span>Expert</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 95%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-progress mb-4">
+                        <div class="d-flex justify-content-between">
+                            <span>SQL & Database Optimization</span>
+                            <span>Advanced</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 85%"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill-progress mb-4">
+                        <div class="d-flex justify-content-between">
+                            <span>Azure Cloud Services</span>
+                            <span>Intermediate</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 75%"></div>
+                        </div>
+                    </div>
+                    <div class="skill-progress mb-4">
+                        <div class="d-flex justify-content-between">
+                            <span>Power BI/Tableau</span>
+                            <span>Advanced</span>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" style="width: 80%"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="py-5 bg-white">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Certifications</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-3 col-md-6">
+                    <div class="certification-card text-center p-4">
+                        <img src="assets/images/azure-data-cert.png" alt="Azure Data Fundamentals" class="img-fluid mb-3" style="height: 80px">
+                        <h4>Microsoft Azure Data Fundamentals</h4>
+                        <p class="text-muted">2024</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="certification-card text-center p-4">
+                        <img src="assets/images/azure-ai-cert.png" alt="Azure AI Fundamentals" class="img-fluid mb-3" style="height: 80px">
+                        <h4>Microsoft Azure AI Fundamentals</h4>
+                        <p class="text-muted">2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="py-5 bg-primary text-white">
+        <div class="container">
+            <h2 class="section-title text-center text-white mb-5">Let's Connect</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-card p-4">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h3 class="h4 mb-4">Contact Information</h3>
+                                <ul class="list-unstyled">
+                                    <li class="mb-3">
+                                        <i class="fas fa-envelope me-3"></i>
+                                        bigibrach@gmail.com
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="fas fa-phone me-3"></i>
+                                        +44 7442 829882
+                                    </li>
+                                    <li class="mb-3">
+                                        <i class="fas fa-map-marker-alt me-3"></i>
+                                        London, UK (Open to Relocation)
+                                    </li>
+                                </ul>
+                                <div class="social-links mt-4">
+                                    <a href="#" class="text-white me-3"><i class="fab fa-linkedin-in fa-lg"></i></a>
+                                    <a href="#" class="text-white me-3"><i class="fab fa-github fa-lg"></i></a>
+                                    <a href="#" class="text-white"><i class="fas fa-file-pdf fa-lg"></i></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <h3 class="h4 mb-4">Quick Message</h3>
+                                <form>
+                                    <div class="mb-3">
+                                        <input type="text" class="form-control" placeholder="Your Name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <input type="email" class="form-control" placeholder="Your Email">
+                                    </div>
+                                    <div class="mb-3">
+                                        <textarea class="form-control" rows="3" placeholder="Your Message"></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-light">Send Message</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 Ibrahim Musah. All rights reserved.</p>
         </div>
     </footer>
 
-    <div class="modal fade" id="project1Modal" tabindex="-1" aria-labelledby="project1ModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-xl modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal-content"> {/* Style .modal-content in your CSS for dark/light theme */}
-                <div class="modal-header">
-                    <h5 class="modal-title" id="project1ModalLabel">Project Details: Stock Market Prediction</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    <div class="row">
-                        <div class="col-md-7">
-                            <img src="assets/images/stock-prediction-large.jpg" alt="Detailed view of Stock Prediction project" class="img-fluid mb-3">
-                        </div>
-                        <div class="col-md-5">
-                            <h4>Overview</h4>
-                            <p>This project involved creating a real-time machine learning pipeline to predict stock market trends. It processes over 10,000 trades per day from various sources.</p>
-                            <h4>My Role & Responsibilities</h4>
-                            <ul>
-                                <li>Led the design and implementation of the data ingestion and preprocessing modules using Kafka and Python.</li>
-                                <li>Developed and tuned predictive models (e.g., LSTM, ARIMA) with Scikit-learn and TensorFlow.</li>
-                                <li>Orchestrated the ML pipeline using Apache Airflow for daily model retraining and inference.</li>
-                                <li>Collaborated with stakeholders to define KPIs and reporting dashboards.</li>
-                            </ul>
-                            <h4>Technologies Used</h4>
-                            <p>Python, Pandas, NumPy, Scikit-learn, TensorFlow, Keras, Apache Kafka, Apache Airflow, PostgreSQL, Docker.</p>
-                            <h4>Key Achievements</h4>
-                            <ul>
-                                <li>Achieved an average prediction accuracy of 87% for target stock indicators.</li>
-                                <li>Reduced manual analysis time by X hours per week.</li>
-                                <li>[Add another quantifiable achievement if possible]</li>
-                            </ul>
-                             <a href="https://github.com/yourusername/stock-prediction" target="_blank" rel="noopener noreferrer" class="btn btn-primary mt-2">
-                                <i class="fab fa-github me-2"></i>View Code on GitHub
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script>
-        // Simple script to update copyright year
-        document.getElementById('currentYear').textContent = new Date().getFullYear();
-    </script>
+    <script src="assets/js/scripts.js"></script>
 </body>
 </html>
